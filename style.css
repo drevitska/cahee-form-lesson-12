@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #262626;
+}
+.section_contacts {
+    background-image: url(./img/img.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    height: 866px;
+}
+.container {
+    width: 1200px;    
+    padding: 0 15px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+.section_contacts__wraper_title {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-contacts__title {
+    margin: 0;
+    color: #262626;
+    font-size: 90px;
+    font-weight: 700;
+}
+.section_contacts__text {
+    color: #262626;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.section_contacts_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.section_contacts__input {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.aaa {
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    height: 50px;
+    background-color: #61cfd4;
+    border-left: 5px solid transparent;
+    padding-left: 15px;
+    color: #fff;
+}
+.aaa:focus {
+    border-left: 5px solid #355b82;
+    font-weight: 700;
+}
+.aaa::placeholder {
+    color: #fff;
+}
+.textarea {
+    outline: none;
+    border: none;
+    margin-bottom: 15px; 
+    background-color: #61cfd4;
+    border-left: 5px solid transparent;
+    padding: 15px;
+    color: #fff;
+}
+.textarea:focus {
+    border-left: 5px solid #355b82;
+    font-weight: 700;
+}
+.textarea::placeholder {
+    color: #fff;
+}
+.section_contacts__contact {
+    width: 500px;
+}
+.section_contacts__contact-title {
+    font-weight: 700;
+}
+.section_contacts__contact-text {
+    margin-bottom: 24px;
+}
+.footer {
+
+    background-color: #262626;
+    height: 90px;
+    color: #b9b9b9;
+    display: flex;
+    align-items: center;
+
+}
+.footer__container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__copiration {
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer__made {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.footer_acsent {
+    color: #ff2b58;
+    font-weight: 700;
+}
+.logo {
+    font-family: 'Pacifico';
+    font-size: 25px;
+
+}
